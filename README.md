@@ -1,6 +1,7 @@
 ## HACKATHON IFPR AGROTECH
 
 ## Repositório relacionado aos códigos desenvolvidos no HACKATHON IFPR 2023.
+## Repo original: https://github.com/pedrobolfe/hackathon-iftagrotech
 Com a Pitch de apresentação por Felipe Barradas, foi conquistado o premio de 2º lugar 
 
 * Gabriel Costa de Moraes
