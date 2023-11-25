@@ -9,3 +9,13 @@
 * Pedro Henrique Bolfe
 
  <img src="/images/logo-Cultiva_Cascavel.png">
+
+## Executando
+### Lista de passos para executar
+* git clone https://github.com/GabrielCM16/hackathon-iftagrotech-2023.git
+* cd .\hackathon-iftagrotech-2023\
+* python -m venv venv
+* cd .\backend\
+* pip install -r .\requeriments.txt
+* uvicorn main:app --reload
+* abrir o index.html
