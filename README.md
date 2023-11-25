@@ -7,3 +7,5 @@
 * Julio Cesar Spezia
 * Pedro Miotto Mujica
 * Pedro Henrique Bolfe
+
+ <img src="/images/logo-Cultiva_Cascavel.png">
