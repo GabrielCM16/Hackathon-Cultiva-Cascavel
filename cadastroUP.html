@@ -1,0 +1,85 @@
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="cadastroUP.css">
+
+    <title>CadastroUP</title>
+  </head>
+  
+  <body class="container bg-light">
+    <div class="text-center pt-5">
+
+      <h2>Cadastro de Unidade de Produção</h2>
+
+    </div>
+
+
+    <div class="card">
+ 
+      <div class="card-body">
+
+        <form id="bookingForm" action="#" method="" class="needs-validation" novalidate autocomplete="off">
+
+          <div class="form-group">
+            <label for="inputName">Nome</label>
+            <input type="text" class="form-control" id="inputName" name="name" placeholder="Nome da unidade de produção" required />
+          </div>
+
+
+          <div class="form-group">
+            <label for="inputEmail">Email do produtor</label>
+            <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email do produtor principal da unidade" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
+            <label for="inputEmail">Senha</label>
+            <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Senha do produtor principal da unidade" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
+            <small class="form-text text-muted">Senha que o produtor utilizará para logar e fazer as altualizações na Unidade de Produção.</small>
+
+          </div>
+
+
+          <div class="form-group">
+            <label for="inputPhone">Localização</label>
+            <input type="tel" class="form-control" id="inputPhone" name="phone" placeholder="Av. das Pombas 7764" pattern="\d{3}\d{3}\d{4}" required /><br>
+            
+            <label for="inputPhone">Produtos:</label>
+            <div>
+                <input type="checkbox" id="huey" name="drone" value="huey" checked />
+                <label for="huey">Tomate</label>
+              </div> 
+              <div>
+                <input type="checkbox" id="huey" name="drone" value="huey" checked />
+                <label for="huey">Alface</label>
+              </div>
+              <div>
+                <input type="checkbox" id="huey" name="drone" value="huey" checked />
+                <label for="huey">Laranja</label>
+              </div>
+              <div>
+                <input type="checkbox" id="huey" name="drone" value="huey" checked />
+                <label for="huey">Cenoura</label>
+              </div>
+              <div>
+                <input type="checkbox" id="huey" name="drone" value="huey" checked />
+                <label for="huey">Maçã</label>
+              </div>
+
+          </div>
+
+          <hr />
+  
+          <button class="btn btn-primary btn-block col-lg-2" type="submit">Enviar</button>
+          <!-- End Submit Button -->
+        </form>
+        <!-- End Form -->
+      </div>
+      <!-- End Card Body -->
+    </div>
+    <!-- End Card -->
+    <footer>
+      <div class="my-4 text-muted text-center">
+        <p>© Cultiva Cascavel</p>
+      </div>
+    </footer>
+
+  </body>

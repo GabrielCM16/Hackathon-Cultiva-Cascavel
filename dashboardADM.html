@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>DashBoard ADM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="dashboard.css">
+
+</head>
+
+<body>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"
+    integrity="sha256-3sPp8BkKUE7QyPSl6VfBByBroQbKxKG7tsusY2mhbVY=" crossorigin="anonymous" />
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto mb-4">
+        <div class="section-title text-center ">
+          <h3 class="top-c-sep">Dados produtores</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="career-search mb-60">
+          
+          <form action="#" class="career-form mb-60">
+            <div class="row">
+              <div class="col-md-6 col-lg-3 my-3">
+                <div class="input-group position-relative">
+                  <input type="text" class="form-control" placeholder="Nº Unidade Produção" id="keywords">
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 my-3">
+                  <div class="col-md-20">
+                    <input placeholder="Bairro" class="form-control" type="text" id="num" name="num">
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3 my-3">
+                  <div class="col-md-20">
+                    <input placeholder="Partrimônio" class="form-control" type="text" id="num" name="num">
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3 my-3">
+                <button type="button" class="btn btn-lg btn-block btn-light btn-custom" id="contact-submit">
+                  Search
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <div class="filter-result">
+            <p class="mb-30 ff-montserrat">Total de Unidades Cadastradas: 31</p>
+            <div class="job-box d-md-flex align-items-center justify-content-between mb-30">
+              <div class="job-left my-4 d-md-flex align-items-center flex-wrap">
+                <div class="img-holder mr-md-4 mb-md-0 mb-4 mx-auto mx-md-0 d-md-none d-lg-flex">
+                  FD
+                </div>
+                <div class="job-content">
+                  <h5 class="text-center text-md-left">Nº UP: 1  Unidade de Produção Maria Luiza</h5>
+                  <ul class="d-md-flex flex-wrap text-capitalize ff-open-sans">
+                    <li class="mr-md-4">
+                      <i class="zmdi zmdi-pin mr-2"></i> Rua- Felicidade Nº633, Interlagos - Cascavel, Brasil
+                    </li>
+                    <li class="mr-md-4">
+                      Nº Famílias: 12
+                    </li>
+                    <li class="mr-md-4">
+                      <i class="zmdi zmdi-home mr-2"></i> Partrimônio: Território
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="job-right my-4 flex-shrink-0">
+                <div class="button-container">
+                    <a href="demo-modal" data-toggle="modal" class="btn d-block w-100 d-sm-inline-block btn-light">Mais Info.</a>
+                    <a href="#" class="btn d-block w-100 d-sm-inline-block btn-light" id="doacao">Status Doações</a>
+                </div>
+            </div>
+            
+            </div>
+
+            <div class="job-box d-md-flex align-items-center justify-content-between mb-30">
+              <div class="job-left my-4 d-md-flex align-items-center flex-wrap">
+                <div class="img-holder mr-md-4 mb-md-0 mb-4 mx-auto mx-md-0 d-md-none d-lg-flex">
+                  FD
+                </div>
+                <div class="job-content">
+                  <h5 class="text-center text-md-left">Nº UP: 2</h5>
+                  <ul class="d-md-flex flex-wrap text-capitalize ff-open-sans">
+                    <li class="mr-md-4">
+                      <i class="zmdi zmdi-pin mr-2"></i> Rua - Pascoal Ranieri Mazille S/N, Presidente - Cascavel, Brasil
+                    </li>
+                    <li class="mr-md-4">
+                      Nº Famílias: 09
+                    </li>
+                    <li class="mr-md-4">
+                      <i class="zmdi zmdi-home mr-2"></i> Partrimônio: Território
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="job-right my-4 flex-shrink-0">
+                <div class="button-container">
+                    <a href="#" class="btn d-block w-100 d-sm-inline-block btn-light">Mais Info.</a>
+                    <a href="#" class="btn d-block w-100 d-sm-inline-block btn-light">Status Doações</a>
+                </div>
+            </div>
+            </div>
+
+            
+            <div class="job-box d-md-flex align-items-center justify-content-between mb-30">
+              <div class="job-left my-4 d-md-flex align-items-center flex-wrap">
+                <div class="img-holder mr-md-4 mb-md-0 mb-4 mx-auto mx-md-0 d-md-none d-lg-flex">
+                  FD
+                </div>
+                <div class="job-content">
+                  <h5 class="text-center text-md-left">Nº UP: 3</h5>
+                  <ul class="d-md-flex flex-wrap text-capitalize ff-open-sans">
+                    <li class="mr-md-4">
+                      <i class="zmdi zmdi-pin mr-2"></i> Rua Holanda Nº767 - Cascavel Velho
+                    </li>
+                    <li class="mr-md-4">
+                      Nº Famílias: 09
+                    </li>
+                    <li class="mr-md-4">
+                      <i class="zmdi zmdi-home mr-2"></i> Partrimônio: Território
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="job-right my-4 flex-shrink-0">
+                <div class="button-container">
+                    <a href="#" class="btn d-block w-100 d-sm-inline-block btn-light">Mais Info.</a>
+                    <a href="#" class="btn d-block w-100 d-sm-inline-block btn-light">Status Doações</a>
+                </div>
+            </div>
+            </div>
+
+            
+            <div class="job-box d-md-flex align-items-center justify-content-between mb-30">
+              <div class="job-left my-4 d-md-flex align-items-center flex-wrap">
+                <div class="img-holder mr-md-4 mb-md-0 mb-4 mx-auto mx-md-0 d-md-none d-lg-flex">
+                  FD
+                </div>
+                <div class="job-content">
+                  <h5 class="text-center text-md-left">Nº UP: 4</h5>
+                  <ul class="d-md-flex flex-wrap text-capitalize ff-open-sans">
+                    <li class="mr-md-4">
+                      <i class="zmdi zmdi-pin mr-2"></i> Rua Holanda Nº767 - Cascavel Velho
+                    </li>
+                    <li class="mr-md-4">
+                      Nº Famílias: 09
+                    </li>
+                    <li class="mr-md-4">
+                      <i class="zmdi zmdi-home mr-2"></i> Partrimônio: Território
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="job-right my-4 flex-shrink-0">
+                <div class="button-container">
+                    <a href="#" class="btn d-block w-100 d-sm-inline-block btn-light">Mais Info.</a>
+                    <a href="#" class="btn d-block w-100 d-sm-inline-block btn-light" id="doacao">Status Doações</a>
+                </div>
+            </div>
+            </div>
+          </div>
+
+         
+        </div>
+      </div>
+
+      <nav aria-label="Page navigation">
+        <ul class="pagination pagination-reset justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+              <i class="zmdi zmdi-long-arrow-left"></i>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item d-none d-md-inline-block"><a class="page-link" href="#">2</a></li>
+          <li class="page-item d-none d-md-inline-block"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">...</a></li>
+          <li class="page-item"><a class="page-link" href="#">8</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">
+              <i class="zmdi zmdi-long-arrow-right"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <div id="demo-modal" class="modal">
+    <div class="modal__content">
+      <main>
+        <div class="items">
+          <h3>Notificações dos produtores</h3>
+                <ul>
+                    <li>O cano de irrigação da horta quebrou <input type="checkbox" checked="true"></li>
+                    <li>Está faltando cercamento <input type="checkbox" checked="true"></li>
+                </ul>
+          <h3 >Status de doação</h3>
+                <ul>
+                    <p>Doado: <input type="checkbox" checked="true"></p>
+                </ul>
+        </div>
+      </main>
+      <div class="modal__footer">
+        <a href="#" class="modal__footer-btn-close"> Fechar </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const modal = document.getElementById('demo-modal');
+      const modalLinks = document.querySelectorAll('[data-toggle="modal"]');
+      const modalCloseBtn = document.querySelector('.modal__footer-btn-close');
+      const modalCloseIcon = document.querySelector('.modal__close');
+
+      function openModal() {
+        modal.style.display = 'flex';
+      }
+
+      function closeModal() {
+        modal.style.display = 'none';
+      }
+
+      modalLinks.forEach(function (link) {
+        link.addEventListener('click', function (event) {
+          event.preventDefault();
+          openModal();
+        });
+      });
+
+      modalCloseBtn.addEventListener('click', function () {
+        closeModal();
+      });
+
+      modalCloseIcon.addEventListener('click', function () {
+        closeModal();
+      });
+
+      window.addEventListener('click', function (event) {
+        if (event.target === modal) {
+          closeModal();
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>

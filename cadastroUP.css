@@ -1,0 +1,25 @@
+body {
+    background-color: #2a2a2a;
+  }
+  
+  #btnStart {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  #message {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    display: none;
+  }
