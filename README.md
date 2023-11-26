@@ -9,11 +9,11 @@ O primeiro Hackathon ocorrido no evento IF-AgroTech 2023 teve a participação d
 Com a Pitch de apresentação por Felipe Barradas, foi conquistado o prêmio de 2º lugar. 
 
 # A Equipe
-* Gabriel Costa de Moraes
-* Felipe Barradas Sebastião
-* Julio Cesar Spezia
-* Pedro Miotto Mujica
-* Pedro Henrique Bolfe
+* [Gabriel Costa de Moraes](https://github.com/GabrielCM16)
+* [Felipe Barradas Sebastião](https://github.com/Barradas13)
+* [Julio Cesar Spezia](https://github.com/JulioCSpezia)
+* [Pedro Miotto Mujica](https://github.com/pedromujica1)
+* [Pedro Henrique Bolfe](https://github.com/pedrobolfe)
 
  <img src="/images/logo-Cultiva_Cascavel.png">
 
