@@ -15,6 +15,8 @@ Com a Pitch de apresentação por Felipe Barradas, foi conquistado o prêmio de 
 * [Pedro Miotto Mujica](https://github.com/pedromujica1)
 * [Pedro Henrique Bolfe](https://github.com/pedrobolfe)
 
+<img src="/images/imagemHackathon.png">
+
  <img src="/images/logo-Cultiva_Cascavel.png">
 
 ## Executando
